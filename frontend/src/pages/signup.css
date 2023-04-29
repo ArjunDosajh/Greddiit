@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.login-title {
+    font-size: 64px;
+    color: #224957;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace;
+    color: #169c59;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-or-register {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}

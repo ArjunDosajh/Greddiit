@@ -1,0 +1,33 @@
+{
+  "name": "greddiit",
+  "version": "1.0.0",
+  "description": "reddit clone app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\"  \"npm run client\""
+  },
+  "author": "Arjun Dosajh",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "multer": "^1.4.5-lts.1",
+    "node": "^18.13.0",
+    "path": "^0.12.7",
+    "react-scripts": "^5.0.1",
+    "react-window": "^1.8.8"
+  }
+}
