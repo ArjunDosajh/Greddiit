@@ -10,7 +10,7 @@ All the data is stored in MongoDB cloud. To connect your own MongoDB URI, update
 
 ## Features
 
-- **Posting and Sharing Content:** Users can create and share posts, images, and links with the community.
+- **Posting and Sharing Content:** Users can create and share posts with the community.
 
 - **Upvoting and Downvoting:** Similar to Reddit, users can express their approval or disapproval of posts and comments through upvotes and downvotes.
 
@@ -18,7 +18,7 @@ All the data is stored in MongoDB cloud. To connect your own MongoDB URI, update
 
 - **Subreddits or Categories:** GredIIT allows users to categorize content into different subreddits, making it easier to find relevant posts.
 
-- **User Profiles:** Each user has a profile that showcases their posts and activities on the platform.
+- **User Profiles:** Each user has a profile that shows their details and also their followers and following.
 
 
 ## How to run the app?
